@@ -1,0 +1,26 @@
+* {
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+p {
+    margin: 1em 2em 1em 2em;
+    padding: 0%;
+    color: crimson;
+    background-color: white;
+}
+
+h1 {
+    color: #000;
+    font-size: 6em;
+}
+
+button {
+    color: blue;
+    margin: auto;
+}
+
+button:hover {
+    color: red;
+}
