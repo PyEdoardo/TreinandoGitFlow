@@ -12,6 +12,7 @@ function App() {
       {todos.map((item, idx) => {
         <Todos nome={item.nome} id={idx}></Todos>
       })}
+      <h3>slaa</h3>
     </>
   )
 }
