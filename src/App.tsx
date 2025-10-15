@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState([]);
 
   return (
     <>
-      {todos.map(() => {
-        <Todo
+    <h1>Todo List</h1>
+      {todos.map((item, idx) => {
+        <Todos nome={item.nome} id={idx}></Todos>
       })}
+      <h3>slaa</h3>
     </>
   )
 }
